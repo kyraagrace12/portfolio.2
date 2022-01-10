@@ -4,9 +4,14 @@
   --primary-colour: #6e6e6e;
   --secondary-colour: #e8e8e8;
 }
-@media (min-width: 480px) {
-  body {
-    background-color: rgb(5, 201, 5);
+
+@media (max-width: 645px) {
+  .hero h1 {
+    font-size: 36px !important;
+  }
+  .hero h2,
+  .hero h3 {
+    font-size: 22px !important;
   }
 }
 h1 {
