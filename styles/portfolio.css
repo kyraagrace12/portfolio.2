@@ -19,6 +19,12 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-family: var(--primary-font);
+  color: var(--primary-colour);
+  text-align: center;
+}
+
 h3 {
   text-align: center;
 }
@@ -84,4 +90,22 @@ i:hover {
 }
 info-home {
   margin: 15px;
+}
+.about {
+  width: 25%;
+}
+.aboutme {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.education {
+border: 4px double var(--primary-colour);
+
+border-radius: 50px;
+}
+.personal {
+  border: 4px double var(--primary-colour);
+  border-radius: 50px;
+
 }
